@@ -1,0 +1,80 @@
+[
+    {
+        "name": "wearerequired/wp-requirements-check",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wearerequired/wp-requirements-check.git",
+            "reference": "dbf5f3600a630f2c3777d4cdf51cb5352e9e8a3b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wearerequired/wp-requirements-check/zipball/dbf5f3600a630f2c3777d4cdf51cb5352e9e8a3b",
+            "reference": "dbf5f3600a630f2c3777d4cdf51cb5352e9e8a3b",
+            "shasum": ""
+        },
+        "time": "2017-05-02T12:18:10+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "WP_Requirements_Check.php"
+            ]
+        },
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "required",
+                "email": "support@required.ch",
+                "homepage": "http://required.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Simple requirements checking class",
+        "support": {
+            "source": "https://github.com/wearerequired/wp-requirements-check/tree/1.0.0",
+            "issues": "https://github.com/wearerequired/wp-requirements-check/issues"
+        }
+    },
+    {
+        "name": "openinbound/openinbound-api",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lukasfischer/openinbound-api.git",
+            "reference": "affa437230d062ff9419655493b2d796216a13cb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lukasfischer/openinbound-api/zipball/affa437230d062ff9419655493b2d796216a13cb",
+            "reference": "affa437230d062ff9419655493b2d796216a13cb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2017-05-19T10:12:31+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "OpenInbound\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Lukas Fischer",
+                "email": "lf@netnode.ch"
+            }
+        ],
+        "description": "API for the OpenInbound analytics server"
+    }
+]
